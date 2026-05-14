@@ -19,6 +19,17 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Marcus"
     },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIAAAAAACIiIgAAAAAAIgIAAADe392NiIgAAN7d3Y2IiAAA3t3djYiIAADe3d2NiIgAAN7d3Y2IiAAA3t/djYiIAAAAAAAiAAAAAAAAACIiIgAAAAAAICIiAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "jumpscare"
+    },
+    "song1": {
+        "data": "0078000408060102001c000c960064006d019001000478002c010000640032000078000a0100050f00000008000a1d1e2022242527292a2c",
+        "mimeType": "application/mkcd-song",
+        "displayName": "jumpscare sound",
+        "namespace": "mySongs."
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",

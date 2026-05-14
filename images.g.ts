@@ -79,6 +79,25 @@ namespace myImages {
 . . . . . . 8 . 8 . . . . . . . 
 . . . . . . 8 . 8 . . . . . . . 
 `;
+            case "image3":
+            case "jumpscare":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . e e e e e e . . . . . 
+. . . . . d d d d d d . . . . . 
+. . . . . f d d d d f . . . . . 
+. . . . . d d d d d d . . . . . 
+. . . . . d d d d d d . . . . . 
+. . . . . d d d d d d . . . . . 
+. . . 2 2 d d d d d d 2 2 . . . 
+. . . 2 2 8 8 8 8 8 8 2 2 2 . . 
+. . 2 2 2 8 8 8 8 8 8 . 2 2 . . 
+. . 2 2 . 8 8 8 8 8 8 . 2 2 . . 
+. . 2 2 . 8 8 8 8 8 8 . 2 2 . . 
+. . 2 2 . 8 8 8 8 8 8 . 2 2 . . 
+`;
         }
         return null;
     })
@@ -92,7 +111,8 @@ namespace myImages {
 
     helpers._registerFactory("song", function(name: string) {
         switch(helpers.stringTrim(name)) {
-
+            case "song1":
+            case "jumpscare sound":return hex`0078000408060102001c000c960064006d019001000478002c010000640032000078000a0100050f00000008000a1d1e2022242527292a2c`;
         }
         return null;
     })
