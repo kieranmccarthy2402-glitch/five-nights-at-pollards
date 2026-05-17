@@ -58,6 +58,3 @@ pause(10000)
 Levi.follow(Marcus, 100)
 pause(10000)
 Isaac.follow(Marcus, 79)
-forever(function () {
-	
-})
